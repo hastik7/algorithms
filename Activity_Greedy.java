@@ -23,7 +23,7 @@ public class Activity_Greedy {
     public static void RECURSIVE_ACTIVITY_SELECTOR(int[] s, int[] f, int k, int n) {
 
         if (k == 0) {
-            System.out.print("(" + s[0] + ", " + f[0] + ") ");//Greedy choice WILL be part of the solution
+            System.out.print("(" + s[0] + ", " + f[0] + ") ");
         }
         int m = k + 1;
 
